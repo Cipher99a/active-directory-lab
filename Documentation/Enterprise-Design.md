@@ -112,6 +112,32 @@ This project will be considered successful when I can:
 - Configure DNS.
 - Configure DHCP.
 - Join a Windows client to the domain.
+
+- # Virtual Infrastructure
+
+| Hostname | Operating System | Role | Status |
+|----------|------------------|------|--------|
+| DC-01 | Windows Server 2022 | Domain Controller | Planned |
+| CLIENT-VM-01 | Windows 11 Enterprise | Enterprise Client | Planned |
+
+---
+
+## DC-01 Responsibilities
+
+- Active Directory Domain Services
+- DNS
+- User Authentication
+- Group Policy
+- Centralized Administration
+
+---
+
+## CLIENT-VM-01 Responsibilities
+
+- Join the Active Directory domain
+- Authenticate users
+- Test Group Policy
+- Test administrative tasks
 - Create users and groups.
 - Apply Group Policies.
 - Troubleshoot common issues.
