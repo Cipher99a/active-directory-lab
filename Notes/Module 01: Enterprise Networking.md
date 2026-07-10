@@ -167,3 +167,101 @@ IT / Operations manages the return of company property (laptops, keys, security 
 - [ ] Complete Lab
 - [ ] Update GitHub
 - [ ] Pass Module Review
+
+# Virtual Infrastructure
+
+## DC-01
+
+### Operating System
+Windows Server 2022
+
+### Role
+Primary Domain Controller
+
+### Responsibilities
+
+- Active Directory Domain Services (AD DS)
+- DNS Server
+- User Authentication
+- Group Policy Management
+- Centralized Administration
+
+### Status
+
+🟨 Planned
+
+---
+
+## CLIENT-VM-01
+
+### Operating System
+
+Windows 11 Enterprise
+
+### Role
+
+Enterprise Employee Workstation
+
+### Responsibilities
+
+- Join the Active Directory domain
+- Authenticate users
+- Test Group Policies
+- Test administrative tasks
+
+### Status
+
+🟨 Planned
+
+# Naming Standards
+
+## Physical Devices
+
+| Hostname | Purpose |
+|----------|---------|
+| IT-ADMIN-01 | Primary Administrator Workstation |
+| CLIENT-01 | Employee Workstation |
+| LAB-HOST-01 | Expansion Host |
+
+---
+
+## Virtual Machines
+
+| Hostname | Role |
+|----------|------|
+| DC-01 | Domain Controller |
+| CLIENT-VM-01 | Enterprise Client |
+
+---
+
+## User Accounts
+
+Format
+
+firstname.lastname
+
+Examples
+
+- alice.johnson
+- john.smith
+- emily.davis
+
+---
+
+## Security Groups
+
+- IT_Admins
+- Finance_Users
+- HR_Users
+- Sales_Users
+
+---
+
+## Organizational Units (Future)
+
+- IT
+- HR
+- Finance
+- Sales
+- Workstations
+- Servers
