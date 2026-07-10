@@ -42,6 +42,48 @@ Responsibilities
 - Test Group Policy
 - Test User Authentication
 
+- # Naming Standards
+
+## Physical Devices
+
+IT-ADMIN-01
+
+CLIENT-01
+
+LAB-HOST-01
+
+---
+
+## Virtual Machines
+
+DC-01
+
+CLIENT-VM-01
+
+---
+
+## Users
+
+FirstName.LastName
+
+Example:
+
+alice.johnson
+
+john.smith
+
+---
+
+## Security Groups
+
+IT_Admins
+
+Finance_Users
+
+HR_Users
+
+Sales_Users
+
 Status
 
 Planned
