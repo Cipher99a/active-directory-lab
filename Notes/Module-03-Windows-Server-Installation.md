@@ -119,6 +119,29 @@ My own explanation:
 (None yet)
 
 ---
+## Installation Type
+
+### Role-based or feature-based installation
+
+Definition:
+
+Allows administrators to install Windows Server roles and features, such as Active Directory Domain Services (AD DS), DNS, DHCP, File Services, and Hyper-V.
+
+My own explanation:
+
+This option is used when we want to assign a specific job to a Windows Server. In our lab, we selected it because DC-01 will become the Domain Controller for Lukvic Technologies.
+
+---
+
+### Remote Desktop Services Installation
+
+Definition:
+
+Installs the services required to provide centralized remote desktops and applications to users.
+
+My own explanation:
+
+This option is used when the server's main purpose is to host remote desktop sessions for users rather than providing infrastructure services like Active Directory.
 
 # Module Checklist
 
