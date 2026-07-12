@@ -1,4 +1,13 @@
 # Module 03 – Windows Server Installation
+## Server Role
+
+Definition:
+
+A server role is a primary function assigned to a Windows Server. Installing a role enables the server to provide specific services, such as Active Directory Domain Services (AD DS), DNS, DHCP, or File Services.
+
+My own explanation:
+
+A Windows Server is just an operating system after installation. A role gives the server a specific purpose within an enterprise environment.
 
 ## Status
 
@@ -120,6 +129,7 @@ My own explanation:
 
 ---
 
+
 # Module Checklist
 
 - [ ] Install Windows Server
@@ -127,3 +137,4 @@ My own explanation:
 - [ ] Understand Server Manager
 - [ ] Update GitHub
 - [ ] Pass Module Review
+- [ ] 
