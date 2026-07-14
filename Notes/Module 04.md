@@ -73,4 +73,52 @@ High availability is the practice of deploying multiple servers that provide the
 ### My Own Explanation
 
 Organizations usually deploy at least two Domain Controllers so users can continue logging in even if one Domain Controller fails.
+
+## Domain Controller Options
+
+### Forest Functional Level
+
+Definition:
+
+Defines the minimum Windows Server version that all Domain Controllers in the forest must support.
+
+My own explanation:
+
+The forest functional level determines which Windows Server versions can participate as Domain Controllers within the Active Directory forest.
+
+---
+
+### Domain Functional Level
+
+Definition:
+
+Defines the minimum Windows Server version supported within a specific domain.
+
+My own explanation:
+
+The domain functional level controls compatibility and available Active Directory features for a particular domain.
+
+---
+
+### Global Catalog (GC)
+
+Definition:
+
+A searchable index that helps users and services quickly locate Active Directory objects.
+
+My own explanation:
+
+The Global Catalog allows Active Directory to locate users, groups, and computers more efficiently without searching the entire directory.
+
+---
+
+### DSRM
+
+Definition:
+
+Directory Services Restore Mode is a special recovery mode used to repair or restore Active Directory.
+
+My own explanation:
+
+The DSRM password is used only when booting into recovery mode to perform maintenance or restore Active Directory after serious problems.
   
