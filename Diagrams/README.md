@@ -19,3 +19,21 @@ DNS
 ↓
 
 Windows 11 Client
+
+Client
+
+↓
+
+DNS
+
+↓
+
+Domain Controller
+
+↓
+
+Active Directory
+
+↓
+
+Authentication
